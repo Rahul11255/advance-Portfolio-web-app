@@ -386,6 +386,20 @@ export const projects = [
     "webapp": "https://rahulpatel.vercel.app/"
   },
   {
+    "id": 7,
+    "title": "Movieverse - Movie Catalog Web App",
+    "date": "Nov 2022",
+    "description": "Movieverse is a React website that utilizes the TMDB API to fetch movie data. Users can explore a vast catalog of movies, including details such as ratings, cast, and synopsis. The website provides a seamless browsing experience, allowing users to search for specific movies and discover new ones.",
+    "image": "https://res.cloudinary.com/dvf03anlx/image/upload/v1713792882/movie_web_js9jvt.png",
+    "tags": ["React Js", "Api", "Axios", "Bootstrap"],
+    "category": "react app",
+    "github": "https://github.com/Rahul11255/movieverse",
+    "webapp": "https://rahul11255.github.io/movieverse/"
+
+  }
+  
+  ,
+  {
     "id": 4,
     "title": "QuizzyApp",
     "date": "Feb 17, 2023",
