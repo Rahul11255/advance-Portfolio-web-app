@@ -346,7 +346,7 @@ export const projects = [
     "title": "ECI Voting System",
     "date": "Mar 2024 - Apr 2024",
     "description": "Developed the ECI (Election Commission of India) Voting System, a web application for conducting elections. Implemented role-based authentication allowing users to register as either voters or administrators. Administrators have the privilege to add and manage candidates, while voters can cast their vote once. Once a vote is cast, the voter receives a notification indicating that they've already voted. Additionally, there's a feature to view all votes cast, enabling both logged-in users and non-logged-in users to see candidate details and the number of votes received.",
-    "image": "https://private-user-images.githubusercontent.com/89196318/324383204-8720ee30-2e72-4030-b87c-bfe3439bdf0e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3NzQ1MDIsIm5iZiI6MTcxMzc3NDIwMiwicGF0aCI6Ii84OTE5NjMxOC8zMjQzODMyMDQtODcyMGVlMzAtMmU3Mi00MDMwLWI4N2MtYmZlMzQzOWJkZjBlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIyVDA4MjMyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI2YzNmMTJjNzg3ZTM4ZmFlMmQyZTIyYzMyYjc5NjBhODMxZjM2OTlhZGU5ZjI2ZDM2YjdmNzE1MTk1N2Y0ZGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.4xhta7aCt7oCnM03sNFQ2HEXyFP8NAxzsUyi35ctxWk",
+    "image": "https://res.cloudinary.com/dvf03anlx/image/upload/v1713782502/votingapp_vmurhc.png",
     "tags": [
       "React Js",
       "MongoDb",
@@ -401,7 +401,7 @@ export const projects = [
     "title": "CRUD Operations Web App",
     "date": "Jun 2021",
     "description": "A CRUD operations web app made with MERN stack (MongoDB, Express.js, React.js, Node.js). Users can perform Create, Read, Update, and Delete operations on tasks. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    "image": "https://private-user-images.githubusercontent.com/89196318/312077046-b3b798b7-0f51-470d-939a-da10e40c55af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM3Nzg3NTYsIm5iZiI6MTcxMzc3ODQ1NiwicGF0aCI6Ii84OTE5NjMxOC8zMTIwNzcwNDYtYjNiNzk4YjctMGY1MS00NzBkLTkzOWEtZGExMGU0MGM1NWFmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIyVDA5MzQxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZhOTMwY2FhM2FlNmUzZDU4MmM0ZWE2NDFkYjMyNDA0NjA4ODRiMjkzZWViNWU2ZDk3NGZhZDZlZGIzOTZhNDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.idCtn5_8yF1oA7q83zVSdSmXMig-gKDyegQiV16NbG0",
+    "image": "https://res.cloudinary.com/dvf03anlx/image/upload/v1713783151/312077046-b3b798b7-0f51-470d-939a-da10e40c55af_s9dhcx.png",
     "tags": ["React Js", "Node.js", "MongoDB", "Express JS", "JavaScript"],
     "category": "fweb app",
     "github": "https://github.com/Rahul11255/crud-operation"

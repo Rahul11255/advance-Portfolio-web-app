@@ -124,24 +124,27 @@ const ContactButton = styled.input`
 
 
 const Contact = () => {
-
-  //hooks
+  // Hooks
   const [open, setOpen] = React.useState(false);
+  const [sending, setSending] = React.useState(false); // Track sending state
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setSending(true); // Set sending state to true when sending starts
     emailjs.sendForm('service_cwqqwov', 'template_rtf4vxi', form.current, 'dvYohxg1F5EgQh_Jm')
       .then((result) => {
         setOpen(true);
-        console.log(result.text)
+        console.log(result.text);
         form.current.reset();
-      }, (error) => {
+      })
+      .catch((error) => {
         console.log(error.text);
+      })
+      .finally(() => {
+        setSending(false); // Set sending state to false when sending finishes
       });
-  }
-
-
+  };
 
   return (
     <Container>
@@ -153,21 +156,20 @@ const Contact = () => {
           <ContactInput placeholder="Your Email" name="user_email" />
           <ContactInput placeholder="Your Name" name="user_name" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactButton type="submit" disabled={sending} value={sending ? "Sending..." : "Send"} />
+
         </ContactForm>
         <Snackbar
-  open={open}
-  autoHideDuration={6000}
-  onClose={()=>setOpen(false)}
-  message="Email sent successfully!"
-  severity="success"
-  sx={{ color: "lightgreen", '& .MuiSnackbarContent-message': { color: 'lightgreen' } }}
-/>
-
-
+          open={open}
+          autoHideDuration={6000}
+          onClose={() => setOpen(false)}
+          message="Email sent successfully!"
+          severity="success"
+          sx={{ color: 'lightgreen', '& .MuiSnackbarContent-message': { color: 'lightgreen' } }}
+        />
       </Wrapper>
     </Container>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
