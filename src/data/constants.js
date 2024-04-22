@@ -14,7 +14,7 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/rahul-patel-323baa213/",
   whatsapp: "https://wa.me/9354081946",
   insta: "https://www.instagram.com/rahulpatel11255/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  
 };
 
 export const skills = [
