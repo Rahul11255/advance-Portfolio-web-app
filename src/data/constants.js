@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: " https://github.com/Rahul11255",
   resume:
-    "https://drive.google.com/file/d/1EVtflAlhpFkzdSFi0aiiaLCtu1KPCO7n/view",
+    "https://drive.google.com/file/d/1lbaWL21DPw-RJtA6OKKG309RfqxlwojQ/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/rahul-patel-323baa213/",
   whatsapp: "https://wa.me/9354081946",
   insta: "https://www.instagram.com/rahulpatel11255/",
